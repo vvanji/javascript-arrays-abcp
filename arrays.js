@@ -28,9 +28,3 @@ function accessElementInArray(array, index){
 accessElementInArray(chocolateBars, [2]);
 
 
-function removeElementFromBeginningOfArray(array){
-  array.shift();
-  return array;
-}
-removeElementFromBeginningOfArray(chocolateBars);
-
