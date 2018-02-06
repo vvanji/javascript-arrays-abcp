@@ -38,3 +38,8 @@ function removeElementFromBeginningOfArray(array){
 }
 removeElementFromBeginningOfArray(chocolateBars);
 
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift();
+  return array;
+}
+destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
